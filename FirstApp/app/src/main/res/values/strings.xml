@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="tView1">글상자에 글 입력하기</string>
+    <string name="btn1">버튼 클릭!!</string>
+    <string name="chkBox">체크 박스</string>
+    <string name="radioBox">라디오 버튼</string>
+</resources>

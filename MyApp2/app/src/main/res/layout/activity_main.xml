@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<!-- match_parent 는 부모의 크기에 맞춤(화면의 크기) -->
+<!-- wrap_content 는 컨텐츠의 크기에 맞춤 -->
+<!-- orientation : LinearLayout에서 컨텐츠를 어떤 방향으로 출력 -->
+
+<!-- 안드로이드의 UI부분의 XML로 구성되어있음 -->
+<!-- xml은 모두 시작태그와 끝 태그가 존재함 -->
+<!-- 끝태그 없이 시작 태그의 끝에 / 를 사용하는것도 상관 없음 -->
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn1" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn2" />
+
+</LinearLayout>
