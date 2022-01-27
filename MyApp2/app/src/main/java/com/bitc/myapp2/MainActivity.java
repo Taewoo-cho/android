@@ -12,13 +12,15 @@ public class MainActivity extends AppCompatActivity {
     Button button1;
     Button button2;
 
+    //  app 의 시작점
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//      activity_main.xml 파일과 연동
         setContentView(R.layout.activity_main);
+
 //      findViewById() : id를 기반으로 해당 ui를 찾음
 //      R 클래스 : res폴더를 뜻함, 안드로이드의 resource 부분
-
         button1 = (Button) findViewById(R.id.btn1);
 //      setOnClickListener() : 버튼 객체에 클릭 이벤트 리스너를 설정
         button1.setOnClickListener(new View.OnClickListener() {
