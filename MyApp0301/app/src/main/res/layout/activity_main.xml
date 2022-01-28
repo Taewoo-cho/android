@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:andriod="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    andriod:layout_width="match_parent"
+    andriod:layout_height="match_parent" >
+
+    <Button
+        andriod:layout_width="wrap_content"
+        andriod:layout_height="wrap_content"
+        andriod:layout_alignParentTop="true"
+        andriod:layout_centerHorizontal="true"
+        andriod:text="위쪽"/>
+
+    <Button
+        andriod:layout_width="wrap_content"
+        andriod:layout_height="wrap_content"
+        andriod:layout_alignParentLeft="true"
+        andriod:layout_centerVertical="true"
+        andriod:text="좌측"/>
+
+    <Button
+        andriod:layout_width="wrap_content"
+        andriod:layout_height="wrap_content"
+        andriod:layout_centerInParent="true"
+        andriod:text="중앙"/>
+
+    <Button
+        andriod:layout_width="wrap_content"
+        andriod:layout_height="wrap_content"
+        andriod:layout_alignParentRight="true"
+        andriod:layout_centerVertical="true"
+        andriod:text="우측"/>
+
+    <Button
+        andriod:layout_width="wrap_content"
+        andriod:layout_height="wrap_content"
+        andriod:layout_alignParentBottom="true"
+        andriod:layout_centerHorizontal="true"
+        andriod:text="위쪽"/>
+</RelativeLayout>

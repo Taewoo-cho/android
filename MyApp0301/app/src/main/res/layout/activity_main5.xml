@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="첫번째 숫자"
+            android:id="@+id/edit01" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="두번째 숫자"
+            android:id="@+id/edit02" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="계산결과 : "
+            android:textColor="#FF0000"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:id="@+id/textResult" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <TableRow>
+            <Button
+                android:id="@+id/btn01"
+                android:layout_margin="5dp"
+                android:text="1" />
+            <Button
+                android:id="@+id/btn02"
+                android:layout_margin="5dp"
+                android:text="2" />
+            <Button
+                android:id="@+id/btn03"
+                android:layout_margin="5dp"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_margin="5dp"
+                android:text="+" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/btn04"
+                android:layout_margin="5dp"
+                android:text="4" />
+            <Button
+                android:id="@+id/btn05"
+                android:layout_margin="5dp"
+                android:text="5" />
+            <Button
+                android:id="@+id/btn06"
+                android:layout_margin="5dp"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/btnSub"
+                android:layout_margin="5dp"
+                android:text="-" />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/btn07"
+                android:layout_margin="5dp"
+                android:text="7" />
+            <Button
+                android:id="@+id/btn08"
+                android:layout_margin="5dp"
+                android:text="8" />
+            <Button
+                android:id="@+id/btn09"
+                android:layout_margin="5dp"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/btnMul"
+                android:layout_margin="5dp"
+                android:text="*" />
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:id="@+id/btn00"
+                android:text="0"
+                android:layout_span="2"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/btnResult"
+                android:layout_margin="5dp"
+                android:text="=" />
+
+            <Button
+                android:id="@+id/btnDiv"
+                android:layout_margin="5dp"
+                android:text="/" />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</LinearLayout>
